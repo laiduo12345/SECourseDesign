@@ -1,0 +1,26 @@
+# Visual Studio 本地状态与构建产物
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+TestResults/
+
+# 本地环境配置，保留供团队使用的示例和模板
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+!.env.*.sample
+!.env.*.template
+
+# 日志、临时文件与系统文件
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store

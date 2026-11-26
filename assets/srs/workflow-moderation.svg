@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="576" viewBox="0 0 640 576" role="img" aria-labelledby="title desc">
+<title id="title">举报处置与恢复活动图</title><desc id="desc">举报经核实后结案并通知相关成员，经复核可恢复被隐藏内容。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto" viewBox="0 0 8 8"><path d="M0 0 8 4 0 8 2.4 4Z" fill="#52677D"/></marker></defs>
+<rect width="640" height="576" fill="#FFFFFF"/>
+<g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+<circle cx="320" cy="20" r="7.5" fill="#405A73" stroke="#24364B"/>
+<path d="M320 28V45" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="180.0" y="45" width="280" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="320" y="67" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">受理举报，保存对象与证据摘要</text>
+<path d="M320 89V106" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="177.0" y="106" width="286" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="320" y="128" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">授权审核人核对原文及上下文</text>
+<path d="M320 150V172" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M245.0 189l13 -17h124l13 17-13 17h-124Z" fill="#E8EFF7" stroke="#59718B"/><text x="320" y="189" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">违规成立？</text>
+<path d="M245 189H155V221" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="220" y="175" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
+<rect x="40.5" y="221" width="229" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="155" y="243" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">按权限隐藏或下架内容</text>
+<path d="M395 189H489V221" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="418" y="175" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
+<rect x="376.0" y="221" width="226" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="489" y="243" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">保留内容并注明理由</text>
+<path d="M155 265V299H308" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M489 265V299H332" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M309 299l11 -11 11 11-11 11Z" fill="#E8EFF7" stroke="#59718B"/>
+<path d="M320 310V331" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="180.5" y="331" width="279" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="320" y="353" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">记录结案决定并通知双方</text>
+<path d="M320 375V398" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M187.0 415l13 -17h240l13 17-13 17h-240Z" fill="#E8EFF7" stroke="#59718B"/><text x="320" y="415" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">复核同意恢复隐藏或下架内容？</text>
+<path d="M187 415H145V444" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="166" y="402" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
+<rect x="19.5" y="444" width="251" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="145" y="466" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">恢复常规展示，关联原决定</text>
+<path d="M453 415H504V515H332" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="477" y="402" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
+<path d="M145 488V515H308" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M309 515l11 -11 11 11-11 11Z" fill="#E8EFF7" stroke="#59718B"/>
+<path d="M320 526V544" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<circle cx="320" cy="554" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="320" cy="554" r="5.4" fill="#405A73"/>
+</g>
+</svg>

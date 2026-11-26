@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="650" viewBox="0 0 800 650" role="img" aria-labelledby="title desc">
+<title id="title">DevForum 用例图</title><desc id="desc">人与外部服务通过各自的用例参与平台。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto" viewBox="0 0 8 8"><path d="M0 0 8 4 0 8 2.4 4Z" fill="#52677D"/></marker></defs>
+<rect width="800" height="650" fill="#FFFFFF"/>
+<g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+<rect x="176" y="12" width="467" height="588" rx="8" fill="white" stroke="#A5B4C5" stroke-width="1.25"/>
+<text x="409.5" y="41" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="700" fill="#24364B">DevForum 平台</text>
+<path d="M86 84 C141 84 195.5 84 265.5 84" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 203 C141 203 196.5 144 266.5 144" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 203 C141 203 200.5 204 270.5 204" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 203 C141 203 207.5 264 277.5 264" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 324 C141 324 201.5 324 271.5 324" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 474 C141 474 200.5 384 270.5 384" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 474 C141 474 190.5 444 260.5 444" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 474 C141 474 197.5 504 267.5 504" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86 474 C141 474 200.5 564 270.5 564" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M551.5 504 C601.5 504 658 486 698 486" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M548.5 564 C598.5 564 658 588 698 588" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="409.5" cy="84" rx="144" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="84" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">浏览公开内容、检索问答和专题</text>
+<ellipse cx="409.5" cy="144" rx="143" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="144" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">管理账号、资料、订阅与通知</text>
+<ellipse cx="409.5" cy="204" rx="139" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="204" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">投稿、讨论、评价与提名精选</text>
+<ellipse cx="409.5" cy="264" rx="132" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="264" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">举报违规内容并查询进度</text>
+<ellipse cx="409.5" cy="324" rx="138" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="324" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">处理本板块举报和内容违规</text>
+<ellipse cx="409.5" cy="384" rx="139" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="384" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">裁定精选、复核降权和信誉</text>
+<ellipse cx="409.5" cy="444" rx="149" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="444" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">编排知识专题、周报与审计统计</text>
+<ellipse cx="409.5" cy="504" rx="142" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="504" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">管理内容源与审核采集候选</text>
+<ellipse cx="409.5" cy="564" rx="139" ry="22" fill="#F3F6FA" stroke="#59718B"/>
+<text x="409.5" y="564" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">复核可选的 AI 整理建议</text>
+<circle cx="56" cy="66" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M56 74v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="56" y="127" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">游客</text>
+<circle cx="56" cy="185" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M56 193v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="56" y="246" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">注册成员</text>
+<circle cx="56" cy="306" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M56 314v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="56" y="367" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">版主</text>
+<circle cx="56" cy="456" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M56 464v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="56" y="517" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">管理员</text>
+<circle cx="729" cy="468" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M729 476v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="729" y="529" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">外部内容源</text>
+<circle cx="729" cy="570" r="8" fill="white" stroke="#405A73" stroke-width="1.25"/><path d="M729 578v23m-13-15h26m-13 15-12 15m12-15 12 15" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round"/><text x="729" y="631" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">AI 服务</text>
+</g>
+</svg>

@@ -1,30 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="670" height="437" viewBox="0 0 670 437" role="img" aria-labelledby="title desc">
-<title id="title">外部资源推荐活动图</title><desc id="desc">成员提交原文，平台查重后引导到已有讨论或发布常规帖。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto" viewBox="0 0 8 8"><path d="M0 0 8 4 0 8 2.4 4Z" fill="#52677D"/></marker></defs>
-<rect width="670" height="437" fill="#FFFFFF"/>
-<g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
-<rect x="12" y="10" width="646" height="415" rx="0" fill="white" stroke="#C6D1DD" stroke-width="1"/>
-<rect x="12" y="10" width="323" height="34" rx="0" fill="#E8EFF7" stroke="#C6D1DD" stroke-width="1"/>
-<rect x="335" y="10" width="323" height="34" rx="0" fill="#E8EFF7" stroke="#C6D1DD" stroke-width="1"/>
-<path d="M335 44V425" stroke="#C6D1DD"/>
-<text x="173.5" y="27" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">社区成员</text>
-<text x="496.5" y="27" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">DevForum 平台</text>
-<circle cx="174" cy="65" r="7.5" fill="#405A73" stroke="#24364B"/>
-<path d="M174 73V91" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<rect x="56.5" y="91" width="235" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="174" y="113" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">填写原文、来源和推荐理由</text>
-<path d="M174 135V151H496V166" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<rect x="373.5" y="166" width="245" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="496" y="188" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">规范化原文链接并查重</text>
-<path d="M496 210V230" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<path d="M415.5 247l13 -17h135l13 17-13 17h-135Z" fill="#E8EFF7" stroke="#59718B"/><text x="496" y="247" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">原文已收录？</text>
-<path d="M415.5 247H174V287" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="385" y="233" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
-<rect x="52.0" y="287" width="244" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="174" y="309" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">保留输入，打开已有讨论</text>
-<path d="M496 264V287" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="512" y="276" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
-<rect x="371.5" y="287" width="249" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="496" y="309" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">发布至最新列表和所属板块</text>
-<path d="M174 331V372" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<circle cx="174" cy="382" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="174" cy="382" r="5.4" fill="#405A73"/>
-<path d="M496 331V372" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<circle cx="496" cy="382" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="496" cy="382" r="5.4" fill="#405A73"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="928" height="678" viewBox="0 0 928 678" role="img" aria-labelledby="title desc">
+  <title id="title">成员推荐外部资源（UC-05、UC-10）</title>
+  <desc id="desc">等价地址关联已有记录。不同地址疑似重复时，由管理员复核；确认独立或查重新通过的推荐发布至常规流。</desc>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7Z" fill="#52677d"/></marker></defs>
+  <style>
+    text { font: 15px "Microsoft YaHei", "Noto Sans SC", sans-serif; fill: #24364b; text-anchor: middle; dominant-baseline: central }
+    .branch { font-size: 13px; fill: #405a73 } .lane { font-weight: bold }
+    .action { fill: #f3f6fa; stroke: #59718b } .decision { fill: #e8eff7; stroke: #59718b }
+    .edge { fill: none; stroke: #52677d; stroke-width: 1.4; marker-end: url(#arrow); stroke-linejoin: round }
+  </style>
+  <rect width="100%" height="100%" fill="white"/>
+  <rect x="8" y="8" width="912" height="662" fill="white" stroke="#bdcad7"/><rect x="8" y="8" width="912" height="38" fill="#e8eff7" stroke="#bdcad7"/><path d="M216 8V670 M570 8V670" stroke="#bdcad7"/>
+  <text x="111" y="27" class="lane">社区成员</text>
+  <text x="393" y="27" class="lane">DevForum 平台</text>
+  <text x="745" y="27" class="lane">管理员</text>
+  <circle cx="111" cy="66" r="7" fill="#405a73"/>
+  <path class="edge" d="M111 73V86"/>
+  <rect class="action" x="21" y="86" width="180" height="54" rx="6"/>
+  <text x="111" y="103">填写推荐资料</text>
+  <text x="111" y="123">确认提交</text>
+  <path class="edge" d="M201 113H273"/>
+  <rect class="action" x="273" y="92" width="240" height="42" rx="6"/>
+  <text x="393" y="113">校验必填项并规范化地址</text>
+  <path class="edge" d="M393 134V159"/>
+  <path class="decision" d="M290 179 l16 -20 H480 l16 20 -16 20 H306 Z"/>
+  <text x="393" y="179">规范地址已收录？</text>
+  <path class="edge" d="M290 179H111V198"/>
+  <text x="247" y="165" class="branch">是</text>
+  <rect class="action" x="21" y="198" width="180" height="54" rx="6"/>
+  <text x="111" y="215">保留输入，可查看</text>
+  <text x="111" y="235">有权阅读的原讨论</text>
+  <path class="edge" d="M111 252V273"/>
+  <g><circle cx="111" cy="282" r="8.5" fill="white" stroke="#405a73"/><circle cx="111" cy="282" r="5" fill="#405a73"/></g>
+  <path class="edge" d="M393 199V245"/>
+  <text x="412" y="220" class="branch">否</text>
+  <path class="decision" d="M299 265 l16 -20 H471 l16 20 -16 20 H315 Z"/>
+  <text x="393" y="265">内容疑似重复？</text>
+  <path class="edge" d="M299 265H240V604H275"/>
+  <text x="264" y="249" class="branch">否</text>
+  <path class="edge" d="M487 265H513V315"/>
+  <text x="535" y="280" class="branch">是</text>
+  <rect class="action" x="380" y="315" width="174" height="54" rx="6"/>
+  <text x="467" y="332">返回待审回执</text>
+  <text x="467" y="352">候选暂不公开</text>
+  <path class="edge" d="M554 342H605V265H645"/>
+  <rect class="action" x="645" y="244" width="202" height="42" rx="6"/>
+  <text x="746" y="265">比对候选与已有原文</text>
+  <path class="edge" d="M746 286V369"/>
+  <path class="decision" d="M669 389 l16 -20 H807 l16 20 -16 20 H685 Z"/>
+  <text x="746" y="389">复核结论</text>
+  <path class="edge" d="M669 389H610V437H506"/>
+  <text x="561" y="423" class="branch">确认重复</text>
+  <rect class="action" x="280" y="416" width="226" height="42" rx="6"/>
+  <text x="393" y="437">关联原帖，登记地址别名</text>
+  <path class="edge" d="M393 458V482"/>
+  <g><circle cx="393" cy="491" r="8.5" fill="white" stroke="#405a73"/><circle cx="393" cy="491" r="5" fill="#405a73"/></g>
+  <path class="edge" d="M746 409V473"/>
+  <text x="769" y="443" class="branch">退回</text>
+  <rect class="action" x="656" y="473" width="180" height="42" rx="6"/>
+  <text x="746" y="494">填写理由并退回</text>
+  <path class="edge" d="M746 515V533"/>
+  <g><circle cx="746" cy="542" r="8.5" fill="white" stroke="#405a73"/><circle cx="746" cy="542" r="5" fill="#405a73"/></g>
+  <path class="edge" d="M823 389H887V604H511"/>
+  <text x="870" y="373" class="branch">确认独立</text>
+  <rect class="action" x="275" y="583" width="236" height="42" rx="6"/>
+  <text x="393" y="604">发布至最新及所属板块</text>
+  <path class="edge" d="M393 625V639"/>
+  <g><circle cx="393" cy="648" r="8.5" fill="white" stroke="#405a73"/><circle cx="393" cy="648" r="5" fill="#405a73"/></g>
 </svg>

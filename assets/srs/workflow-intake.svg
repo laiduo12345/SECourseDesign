@@ -1,41 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="591" viewBox="0 0 800 591" role="img" aria-labelledby="title desc">
-<title id="title">采集与候选审核活动图</title><desc id="desc">条目查重后初筛，符合自动发布条件或通过人工审核的条目进入常规流。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto" viewBox="0 0 8 8"><path d="M0 0 8 4 0 8 2.4 4Z" fill="#52677D"/></marker></defs>
-<rect width="800" height="591" fill="#FFFFFF"/>
-<g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
-<circle cx="387" cy="20" r="7.5" fill="#405A73" stroke="#24364B"/>
-<path d="M387 28V46" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<rect x="260.5" y="46" width="253" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="387" y="68" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">拉取启用源条目，提取元数据</text>
-<path d="M387 90V112" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<path d="M292.0 129l13 -17h164l13 17-13 17h-164Z" fill="#E8EFF7" stroke="#59718B"/><text x="387" y="129" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">规范地址已收录？</text>
-<path d="M292 129H134V174" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="264" y="114" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
-<rect x="19.0" y="174" width="230" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="134" y="196" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">关联原条目，记录重复结果</text>
-<path d="M134 218V238" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<circle cx="134" cy="248" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="134" cy="248" r="5.4" fill="#405A73"/>
-<path d="M387 146V174" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="404" y="159" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
-<rect x="273.5" y="174" width="227" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="387" y="196" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">按来源与质量规则初筛</text>
-<path d="M387 218V260" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<path d="M260.0 277l13 -17h228l13 17-13 17h-228Z" fill="#E8EFF7" stroke="#59718B"/><text x="387" y="277" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">允许自动发布且无疑点？</text>
-<path d="M260 277H163V464H375" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="230" y="262" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
-<path d="M514 277H577V309" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="539" y="262" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
-<rect x="450.5" y="309" width="253" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="577" y="331" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">管理员核对候选条目与原文</text>
-<path d="M577 353V373" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<path d="M504.5 390l13 -17h119l13 17-13 17h-119Z" fill="#E8EFF7" stroke="#59718B"/><text x="577" y="390" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="400" fill="#24364B">审核通过？</text>
-<path d="M504.5 390H387V452" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="476" y="376" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">是</text>
-<path d="M649.5 390H689V442" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<text x="668" y="376" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="400" fill="#3C5065">否</text>
-<rect x="602.0" y="442" width="174" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="689" y="464" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">退回并记录理由</text>
-<path d="M689 486V514" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<circle cx="689" cy="524" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="689" cy="524" r="5.4" fill="#405A73"/>
-<path d="M376 464l11 -11 11 11-11 11Z" fill="#E8EFF7" stroke="#59718B"/>
-<path d="M387 475V497" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<rect x="243.0" y="497" width="288" height="44" rx="6" fill="#F3F6FA" stroke="#59718B" stroke-width="1"/><text x="387" y="519" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#24364B">发布至常规流并记录来源、任务号</text>
-<path d="M387 541V558" fill="none" stroke="#52677D" stroke-width="1.45" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
-<circle cx="387" cy="568" r="9" fill="white" stroke="#405A73" stroke-width="1.4"/><circle cx="387" cy="568" r="5.4" fill="#405A73"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="884" height="595" viewBox="0 0 884 595" role="img" aria-labelledby="title desc">
+  <title id="title">采集与候选审核（UC-09、UC-10）</title>
+  <desc id="desc">采集先按规范地址及内容查重。自动源仅可自动发布无疑点的新条目，疑似重复、新源及其他存疑条目进入人工复核。</desc>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7Z" fill="#52677d"/></marker></defs>
+  <style>
+    text { font: 15px "Microsoft YaHei", "Noto Sans SC", sans-serif; fill: #24364b; text-anchor: middle; dominant-baseline: central }
+    .branch { font-size: 13px; fill: #405a73 } .lane { font-weight: bold }
+    .action { fill: #f3f6fa; stroke: #59718b } .decision { fill: #e8eff7; stroke: #59718b }
+    .edge { fill: none; stroke: #52677d; stroke-width: 1.4; marker-end: url(#arrow); stroke-linejoin: round }
+  </style>
+  <rect width="100%" height="100%" fill="white"/>
+  <circle cx="416" cy="20" r="7" fill="#405a73"/>
+  <path class="edge" d="M416 27V47"/>
+  <rect class="action" x="271" y="47" width="290" height="42" rx="6"/>
+  <text x="416" y="68">拉取已启用的源，解析条目和原文地址</text>
+  <path class="edge" d="M416 89V108"/>
+  <path class="decision" d="M310 128 l16 -20 H506 l16 20 -16 20 H326 Z"/>
+  <text x="416" y="128">规范地址已收录？</text>
+  <path class="edge" d="M310 128H130V158"/>
+  <text x="246" y="114" class="branch">是</text>
+  <rect class="action" x="12.5" y="158" width="235" height="54" rx="6"/>
+  <text x="130" y="175">关联原记录</text>
+  <text x="130" y="195">同源更新保留公开版本</text>
+  <path class="edge" d="M130 212V235"/>
+  <g><circle cx="130" cy="244" r="8.5" fill="white" stroke="#405a73"/><circle cx="130" cy="244" r="5" fill="#405a73"/></g>
+  <path class="edge" d="M416 148V170"/>
+  <text x="434" y="155" class="branch">否</text>
+  <rect class="action" x="278" y="170" width="276" height="42" rx="6"/>
+  <text x="416" y="191">比对文本，核对来源策略及质量规则</text>
+  <path class="edge" d="M416 212V235"/>
+  <path class="decision" d="M294 255 l16 -20 H522 l16 20 -16 20 H310 Z"/>
+  <text x="416" y="255">可信自动源且无疑点？</text>
+  <path class="edge" d="M294 255H201V525H299"/>
+  <text x="254" y="242" class="branch">是</text>
+  <path class="edge" d="M538 255H681V292"/>
+  <text x="686" y="239" class="branch">否（含不同地址的疑似重复项）</text>
+  <rect class="action" x="560" y="292" width="242" height="42" rx="6"/>
+  <text x="681" y="313">管理员核对候选与匹配的原文</text>
+  <path class="edge" d="M681 334V367"/>
+  <path class="decision" d="M610 387 l16 -20 H736 l16 20 -16 20 H626 Z"/>
+  <text x="681" y="387">复核结论</text>
+  <path class="edge" d="M610 387H420V504"/>
+  <text x="502" y="375" class="branch">通过，可独立发布</text>
+  <path class="edge" d="M681 407V444"/>
+  <text x="646" y="427" class="branch">确认重复</text>
+  <rect class="action" x="567" y="444" width="188" height="42" rx="6"/>
+  <text x="661" y="465">关联原帖，登记别名</text>
+  <path class="edge" d="M661 486V506"/>
+  <g><circle cx="661" cy="515" r="8.5" fill="white" stroke="#405a73"/><circle cx="661" cy="515" r="5" fill="#405a73"/></g>
+  <path class="edge" d="M752 387H815V444"/>
+  <text x="791" y="375" class="branch">退回</text>
+  <rect class="action" x="760.5" y="444" width="109" height="42" rx="6"/>
+  <text x="815" y="465">记录理由</text>
+  <path class="edge" d="M815 486V506"/>
+  <g><circle cx="815" cy="515" r="8.5" fill="white" stroke="#405a73"/><circle cx="815" cy="515" r="5" fill="#405a73"/></g>
+  <rect class="action" x="299" y="504" width="242" height="42" rx="6"/>
+  <text x="420" y="525">发布至常规流，记录任务号</text>
+  <path class="edge" d="M420 546V562"/>
+  <g><circle cx="420" cy="571" r="8.5" fill="white" stroke="#405a73"/><circle cx="420" cy="571" r="5" fill="#405a73"/></g>
 </svg>
